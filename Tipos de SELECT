@@ -19,7 +19,7 @@ SELECT *
   INTO TABLE it_sflight
   FROM sflight
   WHERE fldate GT sy-datum.
-* OBS: GT = >=  ( greater than: Maior ou igual )
+* OBS: GT = >=  ( greater than / Maior ou igual )
 
 * =============================================================================== *
 * Seleção de dados e jogando para uma estrutura
